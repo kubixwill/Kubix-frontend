@@ -253,10 +253,15 @@ const TermsAndConditions: React.FC = () => {
           <Section id="intro">
             <SectionTitle>1. Introduction</SectionTitle>
             <Paragraph>
-  {"Welcome to Kubix, (\"Kubix\", \"we\", \"us\", or \"our\"). These Terms and Conditions (\"Terms\") govern your use of our website "}
-  <InlineLink href="https://www.kubix.careers" target="_blank" rel="noreferrer noopener">www.kubix.careers</InlineLink>
-  {" (the \"Platform\") and all related services, including articles, newsletters, forums, and other educational content  (collectively, the \"Services\"). <br/> By accessing or using our Platform, you agree to be bound by these Terms. If you do not agree, you must discontinue use of our Services immediately."}
-</Paragraph>
+              {"Welcome to Kubix, (\"Kubix\", \"we\", \"us\", or \"our\"). These Terms and Conditions (\"Terms\") govern your use of our website "}
+              <InlineLink href="https://www.kubix.careers" target="_blank" rel="noreferrer noopener">
+                www.kubix.careers
+              </InlineLink>
+              {" (the \"Platform\") and all related services, including articles, newsletters, forums, and other educational content  (collectively, the \"Services\")."}
+              <br /><br />
+              {"By accessing or using our Platform, you agree to be bound by these Terms. If you do not agree, you must discontinue use of our Services immediately."}
+            </Paragraph>
+
 
           </Section>
 
@@ -264,21 +269,21 @@ const TermsAndConditions: React.FC = () => {
             <SectionTitle>2. Eligibility &amp; User Accounts</SectionTitle>
             <Paragraph><strong>2.1 Eligibility Criteria</strong></Paragraph>
             <List>
-              <li>You must be at least 18 years old or have parental consent to use our Services.</li>
-              <li>If you are registering on behalf of an organization, you must have the authority to accept these Terms.</li>
+              <li>• You must be at least 18 years old or have parental consent to use our Services.</li>
+              <li>• If you are registering on behalf of an organization, you must have the authority to accept these Terms.</li>
             </List>
             <Paragraph><strong>2.2 Account Registration</strong></Paragraph>
             <List>
-              <li>You may need to create an account to access certain features.</li>
-              <li>You must provide accurate and up-to-date information.</li>
-              <li>You are responsible for safeguarding your login credentials.</li>
+              <li>• You may need to create an account to access certain features.</li>
+              <li>• You must provide accurate and up-to-date information.</li>
+              <li>• You are responsible for safeguarding your login credentials.</li>
             </List>
             <Paragraph><strong>2.3 Account Suspension &amp; Termination</strong></Paragraph>
             <Paragraph>Kubix reserves the right to suspend or terminate your account if:</Paragraph>
             <List>
-              <li>You violate these Terms.</li>
-              <li>You engage in fraudulent, abusive, or illegal activity.</li>
-              <li>We receive complaints regarding misuse of your account.</li>
+              <li>• You violate these Terms.</li>
+              <li>• You engage in fraudulent, abusive, or illegal activity.</li>
+              <li>• We receive complaints regarding misuse of your account.</li>
             </List>
           </Section>
 
@@ -286,14 +291,14 @@ const TermsAndConditions: React.FC = () => {
             <SectionTitle>3. Use of Services</SectionTitle>
             <Paragraph>You agree to:</Paragraph>
             <List>
-              <li>Use the Platform only for educational and informational purposes.</li>
-              <li>Comply with all applicable laws and regulations.</li>
+              <li>• Use the Platform only for educational and informational purposes.</li>
+              <li>• Comply with all applicable laws and regulations.</li>
             </List>
             <Paragraph>You must not:</Paragraph>
             <List>
-              <li>Copy, modify, distribute, or sell our content without explicit permission.</li>
-              <li>Engage in unauthorized advertising, spamming, or solicitation.</li>
-              <li>Upload any malware, viruses, or harmful content.</li>
+              <li>• Copy, modify, distribute, or sell our content without explicit permission.</li>
+              <li>• Engage in unauthorized advertising, spamming, or solicitation.</li>
+              <li>• Upload any malware, viruses, or harmful content.</li>
             </List>
             <Paragraph>We reserve the right to monitor, remove, or restrict access to content that violates these Terms.</Paragraph>
           </Section>
@@ -305,14 +310,14 @@ const TermsAndConditions: React.FC = () => {
             </Paragraph>
             <Paragraph><strong>You may:</strong></Paragraph>
             <List>
-              <li>Share publicly available content with proper attribution to Kubix.</li>
+              <li>• Share publicly available content with proper attribution to Kubix.</li>
             </List>
             <Paragraph><strong>You may not:</strong></Paragraph>
             <List>
-              <li>Copy, modify, or use Kubix&apos;s content for commercial purposes without our consent.</li>
+              <li>• Copy, modify, or use Kubix&apos;s content for commercial purposes without our consent.</li>
             </List>
             <Paragraph>
-              If you believe that your intellectual property rights are being violated, please contact us at <InlineLink href="mailto:darshan@thekubixegroup.com">darshan@thekubixegroup.com.</InlineLink>.
+              If you believe that your intellectual property rights are being violated, please contact us at <InlineLink href="mailto:tech@thekubixegroup.com">tech@thekubixegroup.com.</InlineLink>.
             </Paragraph>
           </Section>
 
@@ -320,9 +325,9 @@ const TermsAndConditions: React.FC = () => {
             <SectionTitle>5. User-Generated Content</SectionTitle>
             <Paragraph>If you submit content (e.g., comments, reviews, or articles):</Paragraph>
             <List>
-              <li>You retain ownership, but grant Kubix a non-exclusive, royalty-free license to use and distribute your content.</li>
-              <li>Your content must not infringe any third-party rights or violate community guidelines.</li>
-              <li>We may modify or remove user-generated content at our discretion.</li>
+              <li>• You retain ownership, but grant Kubix a non-exclusive, royalty-free license to use and distribute your content.</li>
+              <li>• Your content must not infringe any third-party rights or violate community guidelines.</li>
+              <li>• We may modify or remove user-generated content at our discretion.</li>
             </List>
           </Section>
 
@@ -330,8 +335,8 @@ const TermsAndConditions: React.FC = () => {
             <SectionTitle>6. Privacy &amp; Data Protection</SectionTitle>
             <Paragraph>Our Privacy Policy governs how we collect, store, and use personal data. By using our Services, you consent to:</Paragraph>
             <List>
-              <li>The collection and processing of your data as outlined in our Privacy Policy.</li>
-              <li>The use of cookies and tracking technologies to enhance your experience.</li>
+              <li>• The collection and processing of your data as outlined in our Privacy Policy.</li>
+              <li>• The use of cookies and tracking technologies to enhance your experience.</li>
             </List>
             <Paragraph>
               Communication Consent: By submitting your contact details via forms on our Platform, you agree to receive communications from Kubix via Call, SMS, WhatsApp, and Email, even if your number is registered under DND/NDNC (Do Not Disturb/National Do Not Call Registry). This is necessary for important service updates and relevant educational content. You may opt-out at any time by contacting us at  <InlineLink href="mailto:darshan@thekubixegroup.com">darshan@thekubixegroup.com</InlineLink>.
@@ -342,13 +347,13 @@ const TermsAndConditions: React.FC = () => {
             <SectionTitle>7. Payments, Subscriptions &amp; Refunds</SectionTitle>
             <Paragraph><strong>7.1 Payments</strong></Paragraph>
             <List>
-              <li>All payments must be processed securely via our authorized payment gateway.</li>
-              <li>Prices are subject to change without prior notice.</li>
+              <li>• All payments must be processed securely via our authorized payment gateway.</li>
+              <li>• Prices are subject to change without prior notice.</li>
             </List>
             <Paragraph><strong>7.2 Refund Policy</strong></Paragraph>
             <List>
-              <li>Refunds will be considered only if requested within seven days of purchase.</li>
-              <li>Refunds are not applicable for partially used services or digital products already accessed.</li>
+              <li>• Refunds will be considered only if requested within seven days of purchase.</li>
+              <li>• Refunds are not applicable for partially used services or digital products already accessed.</li>
             </List>
           </Section>
 
@@ -356,9 +361,9 @@ const TermsAndConditions: React.FC = () => {
             <SectionTitle>8. Third-Party Links &amp; Services</SectionTitle>
             <Paragraph>Our Platform may contain links to third-party websites or services.</Paragraph>
             <List>
-              <li>We do not control or endorse these third-party platforms.</li>
-              <li>You are responsible for reviewing their Terms &amp; Privacy Policies before engaging with them.</li>
-              <li>Kubix is not liable for any damage or loss arising from third-party interactions.</li>
+              <li>• We do not control or endorse these third-party platforms.</li>
+              <li>• You are responsible for reviewing their Terms &amp; Privacy Policies before engaging with them.</li>
+              <li>• Kubix is not liable for any damage or loss arising from third-party interactions.</li>
             </List>
           </Section>
 
@@ -366,18 +371,18 @@ const TermsAndConditions: React.FC = () => {
             <SectionTitle>9. Disclaimers &amp; Limitations of Liability</SectionTitle>
             <Paragraph><strong>9.1 Educational Content Disclaimer</strong></Paragraph>
             <List>
-              <li>Our content is for informational and educational purposes only and does not constitute legal, medical, financial, or professional advice.</li>
+              <li>• Our content is for informational and educational purposes only and does not constitute legal, medical, financial, or professional advice.</li>
             </List>
             <Paragraph><strong>9.2 Service Availability</strong></Paragraph>
             <List>
-              <li>We strive to keep the Platform available 24/7, but we do not guarantee uninterrupted access.</li>
-              <li>We reserve the right to modify, suspend, or discontinue any service at any time.</li>
+              <li>• We strive to keep the Platform available 24/7, but we do not guarantee uninterrupted access.</li>
+              <li>• We reserve the right to modify, suspend, or discontinue any service at any time.</li>
             </List>
             <Paragraph><strong>9.3 Limitation of Liability</strong></Paragraph>
             <List>
-              <li>To the fullest extent permitted by law, Kubix shall not be liable for any indirect, incidental, or consequential damages.</li>
-              <li>We are not liable for any loss of profits, data, or goodwill due to service interruptions.</li>
-              <li>We are not responsible for user-generated content posted on the Platform.</li>
+              <li>• To the fullest extent permitted by law, Kubix shall not be liable for any indirect, incidental, or consequential damages.</li>
+              <li>• We are not liable for any loss of profits, data, or goodwill due to service interruptions.</li>
+              <li>• We are not responsible for user-generated content posted on the Platform.</li>
             </List>
             <Paragraph>Our total liability shall not exceed the amount paid by you (if any) for our Services.</Paragraph>
           </Section>
@@ -386,9 +391,9 @@ const TermsAndConditions: React.FC = () => {
             <SectionTitle>10. Indemnification</SectionTitle>
             <Paragraph>You agree to defend, indemnify, and hold harmless Kubix, its officers, directors, employees, and affiliates from any claims, damages, or liabilities arising from:</Paragraph>
             <List>
-              <li>Your use of our Platform.</li>
-              <li>Your violation of these Terms.</li>
-              <li>Any infringement of third-party rights caused by your content.</li>
+              <li>• Your use of our Platform.</li>
+              <li>• Your violation of these Terms.</li>
+              <li>• Any infringement of third-party rights caused by your content.</li>
             </List>
           </Section>
 
@@ -396,9 +401,9 @@ const TermsAndConditions: React.FC = () => {
             <SectionTitle>11. Termination &amp; Suspension of Services</SectionTitle>
             <Paragraph>Kubix reserves the right to terminate, suspend, or restrict your access if:</Paragraph>
             <List>
-              <li>You violate these Terms.</li>
-              <li>We detect fraudulent or suspicious activity.</li>
-              <li>We are required by law to suspend services.</li>
+              <li>• You violate these Terms.</li>
+              <li>• We detect fraudulent or suspicious activity.</li>
+              <li>• We are required by law to suspend services.</li>
             </List>
             <Paragraph>If your account is terminated, you must stop using our Services immediately.</Paragraph>
           </Section>
@@ -408,9 +413,9 @@ const TermsAndConditions: React.FC = () => {
             <Paragraph>These Terms are governed by the laws of India.</Paragraph>
             <Paragraph><strong>12.1 Dispute Resolution</strong></Paragraph>
             <List>
-              <li><strong>Informal Resolution:</strong> We encourage resolving disputes amicably by contacting <InlineLink href="mailto:darshan@thekubixgroup.com">darshan@thekubixgroup.com</InlineLink>.</li>
-              <li><strong>Arbitration:</strong> If unresolved, disputes shall be settled by binding arbitration in Bangalore, India, in accordance with Indian Arbitration laws.</li>
-              <li><strong>Jurisdiction:</strong> Courts in Bangalore, India shall have exclusive jurisdiction over any disputes.</li>
+              <li><strong>• Informal Resolution:</strong> We encourage resolving disputes amicably by contacting <InlineLink href="mailto:darshan@thekubixgroup.com">darshan@thekubixgroup.com</InlineLink>.</li>
+              <li><strong>• Arbitration:</strong> If unresolved, disputes shall be settled by binding arbitration in Bangalore, India, in accordance with Indian Arbitration laws.</li>
+              <li><strong>• Jurisdiction:</strong> Courts in Bangalore, India shall have exclusive jurisdiction over any disputes.</li>
             </List>
           </Section>
 

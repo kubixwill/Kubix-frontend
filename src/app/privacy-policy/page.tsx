@@ -274,18 +274,27 @@ const TermsAndConditions: React.FC = () => {
         <Content>
           <Section id="intro">
             <SectionTitle>1. Introduction</SectionTitle>
-            <Paragraph>
-  Welcome to Kubix, (&quot;Kubix&quot;, &quot;we&quot;, &quot;us&quot;, or &quot;our&quot;). Kubix respects your privacy and is committed to protecting it through this Privacy Policy. This policy outlines how we collect, use, disclose, store, and protect your personal data when you visit our website <InlineLink href="https://www.kubix.careers" target="_blank" rel="noreferrer noopener">www.kubix.careers</InlineLink> (the &quot;Platform&quot;). It also informs you about your rights regarding your data. By using our Platform, you consent to the data practices described in this Privacy Policy.
+           <Paragraph>
+  Welcome to Kubix, ("Kubix", "we", "us", or "our"). Kubix respects your privacy and is committed to protecting it through this Privacy Policy.
+  <br /><br />
+  This policy outlines how we collect, use, disclose, store, and protect your personal data when you visit our website 
+  <InlineLink href="https://www.kubix.careers" target="_blank" rel="noreferrer noopener">
+    www.kubix.careers
+  </InlineLink> (the "Platform").
+  <br /><br />
+  It also informs you about your rights regarding your data. 
+  By using our Platform, you consent to the data practices described in this Privacy Policy.
 </Paragraph>
 
           </Section>
 
           <Section id="scope">
             <SectionTitle>2. Scope of This Privacy Policy</SectionTitle>
+            <Paragraph>This policy applies to:</Paragraph>
             <List>
-              <li>Visitors and users of our website, applications, and services.</li>
-              <li>Individuals who interact with us via email, social media, and customer support.</li>
-              <li>Business partners, vendors, and service providers.</li>
+              <li>• Visitors and users of our website, applications, and services.</li>
+              <li>• Individuals who interact with us via email, social media, and customer support.</li>
+              <li>• Business partners, vendors, and service providers.</li>
             </List>
           </Section>
 
@@ -293,18 +302,18 @@ const TermsAndConditions: React.FC = () => {
             <SectionTitle>3. Information We Collect</SectionTitle>
             <Paragraph><strong>A. Personal Data (Personally Identifiable Information - PII)</strong></Paragraph>
             <List>
-              <li>Identity Information: Full name, date of birth, gender, profile photo.</li>
-              <li>Contact Information: Email address, phone number, mailing address.</li>
-              <li>Payment &amp; Financial Information: Billing details, UPI ID, transaction data (processed via third-party payment gateways).</li>
-              <li>Education &amp; Employment Data: Academic records, qualifications, job history (if applying for a position).</li>
-              <li>User-Generated Content: Reviews, comments, surveys, testimonials.</li>
-              <li>Social Media Data: If you interact with us via social media, we may collect your public profile data.</li>
+              <li>• <strong>Identity Information:</strong> Full name, date of birth, gender, profile photo.</li>
+              <li>• <strong>Contact Information:</strong> Email address, phone number, mailing address.</li>
+              <li>• <strong>Payment &amp; Financial Information:</strong> Billing details, UPI ID, transaction data (processed via third-party payment gateways).</li>
+              <li>• <strong>Education &amp; Employment Data:</strong> Academic records, qualifications, job history (if applying for a position).</li>
+              <li>• <strong>User-Generated Content:</strong> Reviews, comments, surveys, testimonials.</li>
+              <li>• <strong>Social Media Data:</strong> If you interact with us via social media, we may collect your public profile data.</li>
             </List>
             <Paragraph><strong>B. Non-Personal Data (Collected Automatically)</strong></Paragraph>
             <List>
-              <li>Device Data: IP address, browser type, operating system.</li>
-              <li>Usage Data: Pages visited, session time, referral sources, clicks.</li>
-              <li>Cookies &amp; Tracking Data: See Section 12 for details on cookies.</li>
+              <li>• <strong>Device Data:</strong> IP address, browser type, operating system.</li>
+              <li>• <strong>Usage Data:</strong> Pages visited, session time, referral sources, clicks.</li>
+              <li>• <strong>Cookies &amp; Tracking Data:</strong> See Section 12 for details on cookies.</li>
             </List>
             <Paragraph>We do not collect sensitive data such as religious beliefs, sexual orientation, political affiliations, or biometric data.</Paragraph>
           </Section>
@@ -312,56 +321,59 @@ const TermsAndConditions: React.FC = () => {
           <Section id="collection">
             <SectionTitle>4. How We Collect Your Data</SectionTitle>
             <List>
-              <li>Direct interactions (e.g., when you sign up, contact us, or fill out a form).</li>
-              <li>Automated tracking (e.g., cookies, analytics tools like Google Analytics).</li>
-              <li>Third-party integrations (e.g., when you connect via Google, Facebook, LinkedIn).</li>
-              <li>Publicly available sources (e.g., LinkedIn profiles).</li>
+              <li><strong>• Direct interactions</strong> (e.g., when you sign up, contact us, or fill out a form).</li>
+              <li><strong>• Automated tracking</strong> (e.g., cookies, analytics tools like Google Analytics).</li>
+              <li><strong>• Third-party integrations</strong> (e.g., when you connect via Google, Facebook, LinkedIn).</li>
+              <li><strong>• Publicly available sources</strong> (e.g., LinkedIn profiles).</li>
             </List>
             <Paragraph>
-              By submitting your contact details via forms on our website, you explicitly consent to receiving communications from Kubix and its representatives via Email, SMS, WhatsApp, or Calls, even if your phone number is registered under DND/NDNC regulations.
+              By submitting your contact details via forms on our website, you explicitly consent to receiving communications from Kubix and its representatives via <strong>Email, SMS, WhatsApp, or Calls</strong>, even if your phone number is registered under <strong>DND/NDNC (Do Not Disturb/National Do Not Call Registry)</strong> regulations.
             </Paragraph>
           </Section>
 
           <Section id="purpose">
             <SectionTitle>5. Purpose of Collecting Your Data</SectionTitle>
             <List>
-              <li>To provide and improve our services (e.g., personalize user experience, improve website functionality).</li>
-              <li>To communicate with you (e.g., respond to inquiries, send newsletters, updates, and promotions).</li>
-              <li>To process payments and transactions securely.</li>
-              <li>For security &amp; fraud prevention (e.g., detect and prevent malicious activities).</li>
-              <li>For analytics and research (e.g., track user engagement, measure ad effectiveness).</li>
-              <li>To comply with legal obligations (e.g., tax and accounting laws).</li>
+              <li><strong>• To provide and improve our services</strong> (e.g., personalize user experience, improve website functionality).</li>
+              <li><strong>• To communicate with you</strong> (e.g., respond to inquiries, send newsletters, updates, and promotions).</li>
+              <li><strong>• To process payments and transactions</strong> securely.</li>
+              <li><strong>• For security &amp; fraud prevention</strong> (e.g., detect and prevent malicious activities).</li>
+              <li><strong>• For analytics and research</strong> (e.g., track user engagement, measure ad effectiveness).</li>
+              <li><strong>• To comply with legal obligations</strong> (e.g., tax and accounting laws).</li>
             </List>
-            <Paragraph>We will never sell your personal data to third parties.</Paragraph>
+            <Paragraph>We will <strong>never sell</strong> your personal data to third parties.</Paragraph>
           </Section>
 
           <Section id="legalbasis">
             <SectionTitle>6. Legal Basis for Processing Your Data (GDPR Compliance)</SectionTitle>
             <List>
-              <li>Your consent (e.g., when you sign up for newsletters).</li>
-              <li>Legitimate interests (e.g., improving security, fraud prevention).</li>
-              <li>Contractual obligations (e.g., to process payments for services).</li>
-              <li>Legal compliance (e.g., to comply with law enforcement or taxation requirements).</li>
+              <li><strong>• Your consent</strong> (e.g., when you sign up for newsletters).</li>
+              <li><strong>• Legitimate interests</strong> (e.g., improving security, fraud prevention).</li>
+              <li><strong>• Contractual obligations</strong> (e.g., to process payments for services).</li>
+              <li><strong>• Legal compliance</strong> (e.g., to comply with law enforcement or taxation requirements).</li>
             </List>
-            <Paragraph>If you are based in the EU, you have the right to withdraw consent at any time (See Section 9).</Paragraph>
+            <Paragraph>If you are based in the <strong>EU</strong> , you have the right to <strong>withdraw consent</strong>  at any time (See Section 9).</Paragraph>
           </Section>
 
           <Section id="sharing">
             <SectionTitle>7. How We Share Your Data</SectionTitle>
             <List>
-              <li>Service providers (e.g., payment processors, hosting providers, email services).</li>
-              <li>Marketing partners (if you have given explicit consent).</li>
-              <li>Legal authorities (when required by law or to prevent fraud).</li>
+              <li><strong>Service providers</strong>  (e.g., payment processors, hosting providers, email services).</li>
+              <li><strong>Marketing partners</strong>  (if you have given explicit consent).</li>
+              <li><strong>Legal authorities</strong>  (when required by law or to prevent fraud).</li>
             </List>
             <Paragraph>
-              Communication Consent: By providing your contact details, you consent to receiving communications from Kubix via Call, SMS, WhatsApp, and Email, even if your number is registered under DND/NDNC. This is necessary for important service updates and relevant information. You may opt-out by contacting us at <InlineLink href="mailto:darshan@thekubixgroup.com">darshan@thekubixgroup.com</InlineLink>.
+              Communication Consent: By providing your contact details, you consent to receiving communications from Kubix via <strong>Call, SMS, WhatsApp, and Email</strong>, even if your number is registered under DND/NDNC. This is necessary for important service updates and relevant information. You may opt-out by contacting us at <InlineLink href="mailto:tech@thekubixgroup.com">tech@thekubixgroup.com</InlineLink>.
             </Paragraph>
           </Section>
 
           <Section id="international">
             <SectionTitle>8. International Data Transfers</SectionTitle>
             <Paragraph>
-              If you access our Platform from outside India, please note that your data may be transferred to and processed in India and other jurisdictions where data protection laws may differ from those in your country. We ensure adequate safeguards (such as Standard Contractual Clauses under GDPR) for cross-border data transfers.
+            If you access our Platform from outside India, please note that your data may be transferred to and processed in 
+            <strong> India and other jurisdictions</strong> where data protection laws may differ from those in your country.
+            <br /><br />
+            We ensure <strong>adequate safeguards</strong> (such as <strong>Standard Contractual Clauses under GDPR</strong>) for cross-border data transfers.
             </Paragraph>
           </Section>
 
@@ -369,61 +381,70 @@ const TermsAndConditions: React.FC = () => {
             <SectionTitle>9. Your Rights Over Your Data</SectionTitle>
             <Paragraph><strong>For Indian Users (IT Act, 2000 &amp; DPDP Act 2023)</strong></Paragraph>
             <List>
-              <li>Right to access your data.</li>
-              <li>Right to correct inaccurate data.</li>
-              <li>Right to withdraw consent for marketing.</li>
+              <li>Right to <strong>access</strong> your data.</li>
+              <li>Right to <strong>correct</strong> inaccurate data.</li>
+              <li>Right to <strong>withdraw</strong> consent for marketing.</li>
             </List>
             <Paragraph><strong>For EU Users (GDPR Rights)</strong></Paragraph>
             <List>
-              <li>Right to be informed about data collection.</li>
-              <li>Right to access a copy of your personal data.</li>
-              <li>Right to rectification (correct inaccuracies).</li>
-              <li>Right to erasure (&quot;Right to be Forgotten&quot;).</li>
-              <li>Right to data portability (request transfer of data).</li>
-              <li>Right to object to data processing.</li>
-              <li>Right to not be subject to automated decision-making.</li>
+              <li><strong>• Right to be informed</strong> about data collection.</li>
+              <li><strong>• Right to access</strong> a copy of your personal data.</li>
+              <li><strong>• Right to rectification</strong> (correct inaccuracies).</li>
+              <li><strong>• Right to erasure (&quot;Right to be Forgotten&quot;).</strong></li>
+              <li><strong>• Right to data portability</strong> (request transfer of data).</li>
+              <li><strong>• Right to object</strong> to data processing.</li>
+              <li><strong>• Right to not be subject to automated decision-making.</strong></li>
             </List>
-            <Paragraph>To exercise your rights, email us at <InlineLink href="mailto:darshan@thekubixgroup.com">darshan@thekubixgroup.com</InlineLink>.</Paragraph>
+            <Paragraph><strong>To exercise your rights</strong>, email us at <InlineLink href="mailto:tech@thekubixgroup.com">tech@thekubixgroup.com</InlineLink>.</Paragraph>
           </Section>
 
           <Section id="security">
             <SectionTitle>10. Data Security</SectionTitle>
             <List>
-              <li>Encryption of sensitive data.</li>
-              <li>Regular security audits and penetration testing.</li>
-              <li>Access controls &amp; authentication mechanisms.</li>
+              <li><strong>• Encryption of sensitive data.</strong></li>
+              <li><strong>• Regular security audits and penetration testing.</strong></li>
+              <li><strong>• Access controls &amp; authentication mechanisms.</strong></li>
             </List>
-            <Paragraph>Despite these measures, no system is 100% secure.</Paragraph>
+            <Paragraph>Despite these measures, <strong>no system is 100% secure.</strong></Paragraph>
           </Section>
 
           <Section id="retention">
             <SectionTitle>11. Data Retention</SectionTitle>
-            <Paragraph>We retain your data only as long as necessary for the purposes outlined in this policy. Inactive accounts may be deleted after 5 years unless required for legal compliance.</Paragraph>
+            <Paragraph>We retain your data only <strong>as long as necessary</strong> for the purposes outlined in this policy. Inactive accounts may be deleted after <strong>5 years</strong> unless required for legal compliance.</Paragraph>
           </Section>
 
           <Section id="cookies">
             <SectionTitle>12. Cookies &amp; Tracking Technologies</SectionTitle>
-            <Paragraph>Our website uses cookies, web beacons, and third-party trackers to improve functionality and user experience. You can manage cookies through your browser settings or opt-out using <InlineLink href="https://www.aboutads.info" target="_blank" rel="noreferrer noopener">www.aboutads.info</InlineLink>.</Paragraph>
+            <Paragraph>
+              Our website uses <strong>cookies, web beacons, and third-party trackers</strong> to improve functionality and user experience. 
+              <br />
+              You can manage cookies through your <strong>browser settings</strong> or opt-out using 
+              <InlineLink href="https://www.aboutads.info" target="_blank" rel="noreferrer noopener">
+                www.aboutads.info
+              </InlineLink>.
+            </Paragraph>
+
           </Section>
 
           <Section id="thirdparty">
             <SectionTitle>13. Third-Party Links</SectionTitle>
-            <Paragraph>Our Platform may contain links to third-party websites (e.g., partners, advertisers). We are not responsible for their privacy practices.</Paragraph>
+            <Paragraph>Our Platform may contain links to third-party websites (e.g., partners, advertisers). <strong>We are not responsible</strong> for their privacy practices.</Paragraph>
           </Section>
 
           <Section id="children">
             <SectionTitle>14. Children’s Privacy</SectionTitle>
-            <Paragraph>Our services are not intended for children under 13 years old. If we discover that a child has provided personal data, we will delete it immediately.</Paragraph>
+            <Paragraph>Our services <strong>are not intended for children under 13 years old</strong>. If we discover that a child has provided personal data, we will <strong>delete it immediately</strong>.</Paragraph>
           </Section>
 
           <Section id="changes">
             <SectionTitle>15. Changes to This Privacy Policy</SectionTitle>
-            <Paragraph>We may update this policy periodically. Any changes will be posted on this page with a “Last Updated” date.</Paragraph>
+            <Paragraph>We may update this policy periodically. Any changes will be posted on this page with a <strong>“Last Updated” date</strong>.</Paragraph>
           </Section>
 
           <Section id="contact">
             <SectionTitle>16. Contact Us</SectionTitle>
             <Paragraph>
+              Email: <InlineLink href="mailto:tech@thekubixgroup.com">tech@thekubixgroup.com</InlineLink><br />
               Website: <InlineLink href="https://www.kubix.careers" target="_blank" rel="noreferrer noopener">kubix.careers<FiArrowUpRight aria-hidden /></InlineLink>
             </Paragraph>
             <FooterActions>
