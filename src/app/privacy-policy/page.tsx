@@ -274,17 +274,17 @@ const TermsAndConditions: React.FC = () => {
         <Content>
           <Section id="intro">
             <SectionTitle>1. Introduction</SectionTitle>
-           <Paragraph>
-  Welcome to Kubix, ("Kubix", "we", "us", or "our"). Kubix respects your privacy and is committed to protecting it through this Privacy Policy.
-  <br /><br />
-  This policy outlines how we collect, use, disclose, store, and protect your personal data when you visit our website 
-  <InlineLink href="https://www.kubix.careers" target="_blank" rel="noreferrer noopener">
-    www.kubix.careers
-  </InlineLink> (the "Platform").
-  <br /><br />
-  It also informs you about your rights regarding your data. 
-  By using our Platform, you consent to the data practices described in this Privacy Policy.
-</Paragraph>
+            <Paragraph>
+              {"Welcome to Kubix, (\"Kubix\", \"we\", \"us\", or \"our\"). Kubix respects your privacy and is committed to protecting it through this Privacy Policy."}
+              <br /><br />
+              {"This policy outlines how we collect, use, disclose, store, and protect your personal data when you visit our website "}
+              <InlineLink href="https://www.kubix.careers" target="_blank" rel="noreferrer noopener">
+                www.kubix.careers
+              </InlineLink>
+              {" (the \"Platform\")."}
+              <br /><br />
+              {"It also informs you about your rights regarding your data. By using our Platform, you consent to the data practices described in this Privacy Policy."}
+            </Paragraph>
 
           </Section>
 
