@@ -254,8 +254,8 @@ const TermsAndConditions: React.FC = () => {
             <SectionTitle>1. Introduction</SectionTitle>
             <Paragraph>
   {"Welcome to Kubix, (\"Kubix\", \"we\", \"us\", or \"our\"). These Terms and Conditions (\"Terms\") govern your use of our website "}
-  <InlineLink href="https://www.kubix.com" target="_blank" rel="noreferrer noopener">www.kubix.com</InlineLink>
-  {" (the \"Platform\") and all related services, including articles, newsletters, forums, and other educational content (collectively, the \"Services\"). By accessing or using our Platform, you agree to be bound by these Terms. If you do not agree, you must discontinue use of our Services immediately."}
+  <InlineLink href="https://www.kubix.careers" target="_blank" rel="noreferrer noopener">www.kubix.careers</InlineLink>
+  {" (the \"Platform\") and all related services, including articles, newsletters, forums, and other educational content  (collectively, the \"Services\"). <br/> By accessing or using our Platform, you agree to be bound by these Terms. If you do not agree, you must discontinue use of our Services immediately."}
 </Paragraph>
 
           </Section>
@@ -312,7 +312,7 @@ const TermsAndConditions: React.FC = () => {
               <li>Copy, modify, or use Kubix&apos;s content for commercial purposes without our consent.</li>
             </List>
             <Paragraph>
-              If you believe that your intellectual property rights are being violated, please contact us at <InlineLink href="mailto:info@kubix.com">info@kubix.com</InlineLink>.
+              If you believe that your intellectual property rights are being violated, please contact us at <InlineLink href="mailto:darshan@thekubixegroup.com">darshan@thekubixegroup.com.</InlineLink>.
             </Paragraph>
           </Section>
 
@@ -334,7 +334,7 @@ const TermsAndConditions: React.FC = () => {
               <li>The use of cookies and tracking technologies to enhance your experience.</li>
             </List>
             <Paragraph>
-              Communication Consent: By submitting your contact details via forms on our Platform, you agree to receive communications from Kubix via Call, SMS, WhatsApp, and Email, even if your number is registered under DND/NDNC. You may opt out at any time by contacting us at <InlineLink href="mailto:info@kubix.com">info@kubix.com</InlineLink>.
+              Communication Consent: By submitting your contact details via forms on our Platform, you agree to receive communications from Kubix via Call, SMS, WhatsApp, and Email, even if your number is registered under DND/NDNC (Do Not Disturb/National Do Not Call Registry). This is necessary for important service updates and relevant educational content. You may opt-out at any time by contacting us at  <InlineLink href="mailto:darshan@thekubixegroup.com">darshan@thekubixegroup.com</InlineLink>.
             </Paragraph>
           </Section>
 
@@ -408,7 +408,7 @@ const TermsAndConditions: React.FC = () => {
             <Paragraph>These Terms are governed by the laws of India.</Paragraph>
             <Paragraph><strong>12.1 Dispute Resolution</strong></Paragraph>
             <List>
-              <li><strong>Informal Resolution:</strong> We encourage resolving disputes amicably by contacting <InlineLink href="mailto:info@kubix.com">info@kubix.com</InlineLink>.</li>
+              <li><strong>Informal Resolution:</strong> We encourage resolving disputes amicably by contacting <InlineLink href="mailto:darshan@thekubixgroup.com">darshan@thekubixgroup.com</InlineLink>.</li>
               <li><strong>Arbitration:</strong> If unresolved, disputes shall be settled by binding arbitration in Bangalore, India, in accordance with Indian Arbitration laws.</li>
               <li><strong>Jurisdiction:</strong> Courts in Bangalore, India shall have exclusive jurisdiction over any disputes.</li>
             </List>
@@ -422,8 +422,7 @@ const TermsAndConditions: React.FC = () => {
           <Section id="contact">
             <SectionTitle>14. Contact Us</SectionTitle>
             <Paragraph>
-              Email: <InlineLink href="mailto:info@kubix.com">info@kubix.com</InlineLink><br />
-              Website: <InlineLink href="https://www.kubix.com" target="_blank" rel="noreferrer noopener">www.kubix.com <FiArrowUpRight aria-hidden /></InlineLink>
+              Website: <InlineLink href="https://www.kubix.careers" target="_blank" rel="noreferrer noopener">kubix.careers <FiArrowUpRight aria-hidden /></InlineLink>
             </Paragraph>
             <FooterActions>
               <Button href="/">Go to Home</Button>

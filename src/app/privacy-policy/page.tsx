@@ -275,7 +275,7 @@ const TermsAndConditions: React.FC = () => {
           <Section id="intro">
             <SectionTitle>1. Introduction</SectionTitle>
             <Paragraph>
-  Welcome to Kubix, (&quot;Kubix&quot;, &quot;we&quot;, &quot;us&quot;, or &quot;our&quot;). Kubix respects your privacy and is committed to protecting it through this Privacy Policy. This policy outlines how we collect, use, disclose, store, and protect your personal data when you visit our website <InlineLink href="https://www.kubix.com" target="_blank" rel="noreferrer noopener">www.kubix.com</InlineLink> (the &quot;Platform&quot;). It also informs you about your rights regarding your data. By using our Platform, you consent to the data practices described in this Privacy Policy.
+  Welcome to Kubix, (&quot;Kubix&quot;, &quot;we&quot;, &quot;us&quot;, or &quot;our&quot;). Kubix respects your privacy and is committed to protecting it through this Privacy Policy. This policy outlines how we collect, use, disclose, store, and protect your personal data when you visit our website <InlineLink href="https://www.kubix.careers" target="_blank" rel="noreferrer noopener">www.kubix.careers</InlineLink> (the &quot;Platform&quot;). It also informs you about your rights regarding your data. By using our Platform, you consent to the data practices described in this Privacy Policy.
 </Paragraph>
 
           </Section>
@@ -354,7 +354,7 @@ const TermsAndConditions: React.FC = () => {
               <li>Legal authorities (when required by law or to prevent fraud).</li>
             </List>
             <Paragraph>
-              Communication Consent: By providing your contact details, you consent to receiving communications from Kubix via Call, SMS, WhatsApp, and Email, even if your number is registered under DND/NDNC. This is necessary for important service updates and relevant information. You may opt-out by contacting us at <InlineLink href="mailto:info@kubix.com">info@kubix.com</InlineLink>.
+              Communication Consent: By providing your contact details, you consent to receiving communications from Kubix via Call, SMS, WhatsApp, and Email, even if your number is registered under DND/NDNC. This is necessary for important service updates and relevant information. You may opt-out by contacting us at <InlineLink href="mailto:darshan@thekubixgroup.com">darshan@thekubixgroup.com</InlineLink>.
             </Paragraph>
           </Section>
 
@@ -383,7 +383,7 @@ const TermsAndConditions: React.FC = () => {
               <li>Right to object to data processing.</li>
               <li>Right to not be subject to automated decision-making.</li>
             </List>
-            <Paragraph>To exercise your rights, email us at <InlineLink href="mailto:info@kubix.com">info@kubix.com</InlineLink>.</Paragraph>
+            <Paragraph>To exercise your rights, email us at <InlineLink href="mailto:darshan@thekubixgroup.com">darshan@thekubixgroup.com</InlineLink>.</Paragraph>
           </Section>
 
           <Section id="security">
@@ -424,8 +424,7 @@ const TermsAndConditions: React.FC = () => {
           <Section id="contact">
             <SectionTitle>16. Contact Us</SectionTitle>
             <Paragraph>
-              Email: <InlineLink href="mailto:info@kubix.com">info@kubix.com</InlineLink><br />
-              Website: <InlineLink href="https://www.kubix.com" target="_blank" rel="noreferrer noopener">www.kubix.com <FiArrowUpRight aria-hidden /></InlineLink>
+              Website: <InlineLink href="https://www.kubix.careers" target="_blank" rel="noreferrer noopener">kubix.careers<FiArrowUpRight aria-hidden /></InlineLink>
             </Paragraph>
             <FooterActions>
               <Button href="/">Go to Home</Button>
