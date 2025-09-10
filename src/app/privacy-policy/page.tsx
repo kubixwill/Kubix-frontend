@@ -275,7 +275,7 @@ const TermsAndConditions: React.FC = () => {
           <Section id="intro">
             <SectionTitle>1. Introduction</SectionTitle>
             <Paragraph>
-  Welcome to Kubix, The Indian Education Review (&quot;Kubix&quot;, &quot;we&quot;, &quot;us&quot;, or &quot;our&quot;). Kubix respects your privacy and is committed to protecting it through this Privacy Policy. This policy outlines how we collect, use, disclose, store, and protect your personal data when you visit our website <InlineLink href="https://www.kubix.com" target="_blank" rel="noreferrer noopener">www.kubix.com</InlineLink> (the &quot;Platform&quot;). It also informs you about your rights regarding your data. By using our Platform, you consent to the data practices described in this Privacy Policy.
+  Welcome to Kubix, (&quot;Kubix&quot;, &quot;we&quot;, &quot;us&quot;, or &quot;our&quot;). Kubix respects your privacy and is committed to protecting it through this Privacy Policy. This policy outlines how we collect, use, disclose, store, and protect your personal data when you visit our website <InlineLink href="https://www.kubix.com" target="_blank" rel="noreferrer noopener">www.kubix.com</InlineLink> (the &quot;Platform&quot;). It also informs you about your rights regarding your data. By using our Platform, you consent to the data practices described in this Privacy Policy.
 </Paragraph>
 
           </Section>

@@ -253,7 +253,7 @@ const TermsAndConditions: React.FC = () => {
           <Section id="intro">
             <SectionTitle>1. Introduction</SectionTitle>
             <Paragraph>
-  {"Welcome to Kubix, The Indian Education Review (\"Kubix\", \"we\", \"us\", or \"our\"). These Terms and Conditions (\"Terms\") govern your use of our website "}
+  {"Welcome to Kubix, (\"Kubix\", \"we\", \"us\", or \"our\"). These Terms and Conditions (\"Terms\") govern your use of our website "}
   <InlineLink href="https://www.kubix.com" target="_blank" rel="noreferrer noopener">www.kubix.com</InlineLink>
   {" (the \"Platform\") and all related services, including articles, newsletters, forums, and other educational content (collectively, the \"Services\"). By accessing or using our Platform, you agree to be bound by these Terms. If you do not agree, you must discontinue use of our Services immediately."}
 </Paragraph>
