@@ -275,8 +275,9 @@ const TermsAndConditions: React.FC = () => {
           <Section id="intro">
             <SectionTitle>1. Introduction</SectionTitle>
             <Paragraph>
-              Welcome to Kubix, The Indian Education Review ("Kubix", "we", "us", or "our"). Kubix respects your privacy and is committed to protecting it through this Privacy Policy. This policy outlines how we collect, use, disclose, store, and protect your personal data when you visit our website <InlineLink href="https://www.kubix.com" target="_blank" rel="noreferrer noopener">www.kubix.com</InlineLink> (the "Platform"). It also informs you about your rights regarding your data. By using our Platform, you consent to the data practices described in this Privacy Policy.
-            </Paragraph>
+  Welcome to Kubix, The Indian Education Review (&quot;Kubix&quot;, &quot;we&quot;, &quot;us&quot;, or &quot;our&quot;). Kubix respects your privacy and is committed to protecting it through this Privacy Policy. This policy outlines how we collect, use, disclose, store, and protect your personal data when you visit our website <InlineLink href="https://www.kubix.com" target="_blank" rel="noreferrer noopener">www.kubix.com</InlineLink> (the &quot;Platform&quot;). It also informs you about your rights regarding your data. By using our Platform, you consent to the data practices described in this Privacy Policy.
+</Paragraph>
+
           </Section>
 
           <Section id="scope">
@@ -377,7 +378,7 @@ const TermsAndConditions: React.FC = () => {
               <li>Right to be informed about data collection.</li>
               <li>Right to access a copy of your personal data.</li>
               <li>Right to rectification (correct inaccuracies).</li>
-              <li>Right to erasure ("Right to be Forgotten").</li>
+              <li>Right to erasure (&quot;Right to be Forgotten&quot;).</li>
               <li>Right to data portability (request transfer of data).</li>
               <li>Right to object to data processing.</li>
               <li>Right to not be subject to automated decision-making.</li>

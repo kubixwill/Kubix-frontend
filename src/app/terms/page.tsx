@@ -253,8 +253,11 @@ const TermsAndConditions: React.FC = () => {
           <Section id="intro">
             <SectionTitle>1. Introduction</SectionTitle>
             <Paragraph>
-              Welcome to Kubix, The Indian Education Review ("Kubix", "we", "us", or "our"). These Terms and Conditions ("Terms") govern your use of our website <InlineLink href="https://www.kubix.com" target="_blank" rel="noreferrer noopener">www.kubix.com</InlineLink> (the "Platform") and all related services, including articles, newsletters, forums, and other educational content (collectively, the "Services"). By accessing or using our Platform, you agree to be bound by these Terms. If you do not agree, you must discontinue use of our Services immediately.
-            </Paragraph>
+  {"Welcome to Kubix, The Indian Education Review (\"Kubix\", \"we\", \"us\", or \"our\"). These Terms and Conditions (\"Terms\") govern your use of our website "}
+  <InlineLink href="https://www.kubix.com" target="_blank" rel="noreferrer noopener">www.kubix.com</InlineLink>
+  {" (the \"Platform\") and all related services, including articles, newsletters, forums, and other educational content (collectively, the \"Services\"). By accessing or using our Platform, you agree to be bound by these Terms. If you do not agree, you must discontinue use of our Services immediately."}
+</Paragraph>
+
           </Section>
 
           <Section id="eligibility">
@@ -306,7 +309,7 @@ const TermsAndConditions: React.FC = () => {
             </List>
             <Paragraph><strong>You may not:</strong></Paragraph>
             <List>
-              <li>Copy, modify, or use Kubix's content for commercial purposes without our consent.</li>
+              <li>Copy, modify, or use Kubix&apos;s content for commercial purposes without our consent.</li>
             </List>
             <Paragraph>
               If you believe that your intellectual property rights are being violated, please contact us at <InlineLink href="mailto:info@kubix.com">info@kubix.com</InlineLink>.
