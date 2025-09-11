@@ -8,6 +8,8 @@ import {
   FooterText,
   FooterLinks,
   FooterLink,
+  DropdownMenu,
+  DropdownItem,
   SubscribeBox,
   SubscribeInput,
   SubscribeButton,
@@ -45,12 +47,42 @@ const Footer: React.FC = () => {
             <FooterLink>
               <Link href="/about">About</Link>
             </FooterLink>
+
+            {/* Solutions with Dropdown */}
             <FooterLink>
-              <Link href="/solutions">Solutions</Link>
+              <span>Solutions</span> 
+              <DropdownMenu>
+                <DropdownItem>
+                  <Link href="/solutions/students">For Students</Link>
+                </DropdownItem>
+                <DropdownItem>
+                  <Link href="/solutions/parents">For Parents</Link>
+                </DropdownItem>
+                <DropdownItem>
+                  <Link href="/solutions/schools">For Schools</Link>
+                </DropdownItem>
+                <DropdownItem>
+                  <Link href="/solutions/universities">For Universities</Link>
+                </DropdownItem>
+              </DropdownMenu>
             </FooterLink>
+
+            {/* Explore with Dropdown */}
             <FooterLink>
-              <Link href="/explore">Explore</Link>
+              <span>Explore</span> 
+              <DropdownMenu>
+                <DropdownItem>
+                  <Link href="/explore/career-studio">Career Studio</Link>
+                </DropdownItem>
+                <DropdownItem>
+                  <Link href="/explore/careers">Explore Careers</Link>
+                </DropdownItem>
+                <DropdownItem>
+                  <Link href="/explore/universities-list">University Listings</Link>
+                </DropdownItem>
+              </DropdownMenu>
             </FooterLink>
+
             <FooterLink>
               <Link href="/blog">Blog</Link>
             </FooterLink>

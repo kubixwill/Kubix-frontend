@@ -96,12 +96,17 @@ export const FooterLinks = styled.ul`
 `;
 
 export const FooterLink = styled.li`
+  position: relative;
   font-size: 16px;
   margin-bottom: 12px;
   cursor: pointer;
 
   &:hover {
     text-decoration: underline;
+  }
+
+  &:hover > ul {
+    display: block;
   }
 
   @media (max-width: 768px) {
@@ -112,6 +117,38 @@ export const FooterLink = styled.li`
   @media (max-width: 480px) {
     font-size: 14px;
     margin-bottom: 8px;
+  }
+`;
+
+/* Dropdown Styles */
+export const DropdownMenu = styled.ul`
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background: #fff;
+  color: #121212;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 10px 0;
+  margin: 6px 0 0 0;
+  min-width: 180px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  z-index: 100;
+`;
+
+export const DropdownItem = styled.li`
+  padding: 8px 14px;
+  font-size: 15px;
+  cursor: pointer;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  &:hover {
+    background: #f5f5f5;
   }
 `;
 
