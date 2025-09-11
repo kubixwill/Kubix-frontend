@@ -10,7 +10,7 @@ import {
   CardTitle,
   CardText,
   LearnMoreButton,
-} from "../../Styles/4CardsStyled";
+} from "./WhoAreWeStyled";
 
 export default function WhoWeAre() {
   const cardsData = [

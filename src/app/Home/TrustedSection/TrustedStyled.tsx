@@ -133,10 +133,10 @@ export const StatLabel = styled.p`
     font-size: 0.95rem;
   }
 `;
-
 export const LogoSection = styled.div`
   background: #ffffff;
   padding: 0 0 50px 0;
+  overflow: hidden; /* hides overflow for infinite scroll */
 
   @media (max-width: 1024px) {
     padding-bottom: 40px;
@@ -151,27 +151,47 @@ export const LogoSection = styled.div`
   }
 `;
 
-export const LogoBar = styled.div`
-  display: flex;
-  gap: 20px;
-  justify-content: center;
+
+export const LogoScroller = styled.div`
   background: #fdb813;
   padding: 20px;
-  flex-wrap: wrap;
+  overflow: hidden;
+  position: relative;
+
+  @media (max-width: 1024px) {
+    padding: 16px;
+  }
+  @media (max-width: 768px) {
+    padding: 12px;
+  }
+  @media (max-width: 480px) {
+    padding: 10px;
+  }
+`;
+
+export const LogoTrack = styled.div`
+  display: flex;
+  gap: 20px;
+  width: max-content;
+  animation: scroll 25s linear infinite;
+
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
 
   @media (max-width: 1024px) {
     gap: 16px;
-    padding: 16px;
   }
-
   @media (max-width: 768px) {
     gap: 12px;
-    padding: 12px;
   }
-
   @media (max-width: 480px) {
     gap: 8px;
-    padding: 10px;
   }
 `;
 
@@ -194,12 +214,10 @@ export const LogoItem = styled.div`
       max-width: 36px;
       max-height: 36px;
     }
-
     @media (max-width: 768px) {
       max-width: 32px;
       max-height: 32px;
     }
-
     @media (max-width: 480px) {
       max-width: 28px;
       max-height: 28px;
@@ -210,14 +228,40 @@ export const LogoItem = styled.div`
     width: 60px;
     height: 60px;
   }
-
   @media (max-width: 768px) {
     width: 50px;
     height: 50px;
   }
-
   @media (max-width: 480px) {
     width: 45px;
     height: 45px;
+  }
+`;
+
+
+
+export const LogoBar = styled.div`
+  display: flex;
+  width: max-content;
+  gap: 20px;
+  animation: scroll 25s linear infinite;
+
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+  @media (max-width: 1024px) {
+    gap: 16px;
+  }
+  @media (max-width: 768px) {
+    gap: 12px;
+  }
+  @media (max-width: 480px) {
+    gap: 8px;
   }
 `;

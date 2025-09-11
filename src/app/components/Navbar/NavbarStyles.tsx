@@ -83,12 +83,62 @@ export const NavLinks = styled.ul`
   }
 `;
 
+export const DropdownMenu = styled.div`
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  padding: 12px 0;
+  min-width: 220px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+  animation: fadeIn 0.25s ease;
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  a {
+    text-decoration: none;
+    color: #222;
+    display: block;
+    padding: 10px 18px;
+    font-size: 14px;
+    transition: background 0.3s ease, color 0.3s ease;
+
+    &:hover {
+      background: #f5f5f5;
+      color: #007a1e;
+    }
+  }
+`;
+
+export const DropdownItem = styled.div`
+  width: 100%;
+`;
+
 export const NavItem = styled.li`
+  position: relative; /* parent for dropdown positioning */
   font-size: 14px;
   font-weight: 500;
   color: #222;
   cursor: pointer;
   transition: color 0.3s ease;
+
+  display: flex;
+  align-items: center;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
 
   &:hover {
     color: #007a1e;

@@ -7,6 +7,8 @@ import {
   NavLinks,
   NavItem,
   DropdownIcon,
+  DropdownMenu,
+  DropdownItem,
   GetAppButton,
   Hamburger,
   MobileMenu,
@@ -17,7 +19,7 @@ import {
 import { FiChevronDown, FiMenu, FiX } from "react-icons/fi";
 
 const Navbar: React.FC = () => {
-  const [isMobileOpen, setIsMobileOpen] = useState<boolean>(false);
+  const [isMobileOpen, setIsMobileOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
 
   const toggleMobileMenu = () => {
@@ -33,17 +35,55 @@ const Navbar: React.FC = () => {
     <NavbarContainer>
       {/* Logo */}
       <Logo>
-        <img src="/Logo.svg" alt="Kubix Logo" />
+        <a href="/">
+          <img src="/Logo.svg" alt="Kubix Logo" />
+        </a>
       </Logo>
 
       {/* Desktop Navigation */}
       <NavLinks>
-        <NavItem>Home</NavItem>
-        <NavItem>Solutions</NavItem>
-        <NavItem>Explore</NavItem>
-        <NavItem>About</NavItem>
-        <NavItem>Blog</NavItem>
-        <NavItem>Contact</NavItem>
+        <NavItem>
+          <a href="/">Home</a>
+        </NavItem>
+
+        {/* Solutions Dropdown */}
+        <NavItem
+          onMouseEnter={() => setOpenDropdown("solutions")}
+          onMouseLeave={() => setOpenDropdown(null)}
+        >
+          <a href="#">
+            Solutions <DropdownIcon isOpen={openDropdown === "solutions"}><FiChevronDown /></DropdownIcon>
+          </a>
+          {openDropdown === "solutions" && (
+            <DropdownMenu>
+              <DropdownItem><a href="/solutions/students">For Students</a></DropdownItem>
+              <DropdownItem><a href="/solutions/parents">For Parents</a></DropdownItem>
+              <DropdownItem><a href="/solutions/schools">For Schools</a></DropdownItem>
+              <DropdownItem><a href="/solutions/universities">For Universities</a></DropdownItem>
+            </DropdownMenu>
+          )}
+        </NavItem>
+
+        {/* Explore Dropdown */}
+        <NavItem
+          onMouseEnter={() => setOpenDropdown("explore")}
+          onMouseLeave={() => setOpenDropdown(null)}
+        >
+          <a href="#">
+            Explore <DropdownIcon isOpen={openDropdown === "explore"}><FiChevronDown /></DropdownIcon>
+          </a>
+          {openDropdown === "explore" && (
+            <DropdownMenu>
+              <DropdownItem><a href="/explore/career-studio">Career Studio</a></DropdownItem>
+              <DropdownItem><a href="/explore/careers">Explore Careers</a></DropdownItem>
+              <DropdownItem><a href="/explore/universities-list">University Listings</a></DropdownItem>
+            </DropdownMenu>
+          )}
+        </NavItem>
+
+        <NavItem><a href="/about">About</a></NavItem>
+        <NavItem><a href="/blog">Blog</a></NavItem>
+        <NavItem><a href="/contact">Contact</a></NavItem>
       </NavLinks>
 
       {/* CTA Button */}
@@ -56,7 +96,7 @@ const Navbar: React.FC = () => {
 
       {/* Mobile Menu */}
       <MobileMenu isOpen={isMobileOpen}>
-        <MobileNavItem>Home</MobileNavItem>
+        <MobileNavItem><a href="/">Home</a></MobileNavItem>
 
         <MobileNavItem onClick={() => toggleDropdown("solutions")}>
           <span>Solutions</span>
@@ -66,10 +106,10 @@ const Navbar: React.FC = () => {
         </MobileNavItem>
         {openDropdown === "solutions" && (
           <MobileDropdown>
-            <MobileDropdownItem>For Students</MobileDropdownItem>
-            <MobileDropdownItem>For Parents</MobileDropdownItem>
-            <MobileDropdownItem>For Schools</MobileDropdownItem>
-            <MobileDropdownItem>For Universities</MobileDropdownItem>
+            <MobileDropdownItem><a href="/solutions/students">For Students</a></MobileDropdownItem>
+            <MobileDropdownItem><a href="/solutions/parents">For Parents</a></MobileDropdownItem>
+            <MobileDropdownItem><a href="/solutions/schools">For Schools</a></MobileDropdownItem>
+            <MobileDropdownItem><a href="/solutions/universities">For Universities</a></MobileDropdownItem>
           </MobileDropdown>
         )}
 
@@ -81,15 +121,15 @@ const Navbar: React.FC = () => {
         </MobileNavItem>
         {openDropdown === "explore" && (
           <MobileDropdown>
-            <MobileDropdownItem>Career Studio</MobileDropdownItem>
-            <MobileDropdownItem>Explore Careers</MobileDropdownItem>
-            <MobileDropdownItem>University Listings</MobileDropdownItem>
+            <MobileDropdownItem><a href="/explore/career-studio">Career Studio</a></MobileDropdownItem>
+            <MobileDropdownItem><a href="/explore/careers">Explore Careers</a></MobileDropdownItem>
+            <MobileDropdownItem><a href="/explore/universities">University Listings</a></MobileDropdownItem>
           </MobileDropdown>
         )}
 
-        <MobileNavItem>About</MobileNavItem>
-        <MobileNavItem>Blog</MobileNavItem>
-        <MobileNavItem>Contact</MobileNavItem>
+        <MobileNavItem><a href="/about">About</a></MobileNavItem>
+        <MobileNavItem><a href="/blog">Blog</a></MobileNavItem>
+        <MobileNavItem><a href="/contact">Contact</a></MobileNavItem>
 
         <GetAppButton style={{ width: "100%", marginTop: "15px" }}>
           Get the App
