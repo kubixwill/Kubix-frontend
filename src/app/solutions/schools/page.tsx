@@ -12,9 +12,13 @@ import {
   Subtext,
   RightImage,
 } from "../../Styles/HeroStyled";
+import Feature from "./feature-showcase/page";
+import Demo from "./demo/page";
+import Partner from "./Partner/page";
 
 export default function HeroSection() {
   return (
+    <>
     <Section>
       <Container>
         {/* Left Side */}
@@ -39,5 +43,10 @@ export default function HeroSection() {
         </RightImage>
       </Container>
     </Section>
+    
+    <Feature />
+    <Demo />
+    <Partner />
+    </>
   );
 }

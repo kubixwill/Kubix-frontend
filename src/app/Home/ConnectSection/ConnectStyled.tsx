@@ -21,7 +21,7 @@ export const Section = styled.section`
 export const Title = styled.h2`
   font-size: 40px;
   font-weight: 700;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   color: #121212;
 
   @media (max-width: 1200px) {

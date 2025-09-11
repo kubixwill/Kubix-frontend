@@ -12,9 +12,14 @@ import {
   Subtext,
   RightImage,
 } from "../../Styles/HeroStyled";
+import ParentStories from "./parent-stories/page";
+import FAQs from "./faq/page";
+import Guidance from "./guidance/page";
+import Community from "./community/page";
 
 export default function HeroSection() {
   return (
+    <>
     <Section>
       <Container>
         {/* Left Side */}
@@ -39,5 +44,11 @@ export default function HeroSection() {
         </RightImage>
       </Container>
     </Section>
+
+    <ParentStories />
+    <FAQs />
+    <Guidance />
+    <Community />
+    </>
   );
 }

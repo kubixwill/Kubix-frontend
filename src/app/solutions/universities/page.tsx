@@ -12,9 +12,12 @@ import {
   Subtext,
   RightImage,
 } from "../../Styles/HeroStyled";
+import DFeature from "./directory-features/page";
+import UniList from "./uni-list/page";
 
 export default function HeroSection() {
   return (
+    <>
     <Section>
       <Container>
         {/* Left Side */}
@@ -39,5 +42,9 @@ export default function HeroSection() {
         </RightImage>
       </Container>
     </Section>
+
+    <DFeature />
+    <UniList />
+    </>
   );
 }

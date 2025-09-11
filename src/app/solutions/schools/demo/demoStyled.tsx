@@ -2,23 +2,27 @@ import styled from "styled-components";
 
 export const Section = styled.section`
   width: 100%;
-  padding: 50px 20px;
+  padding: 50px 100px;
   background: #ffffff;
   text-align: center;
 
-  @media (min-width: 768px) {
-    padding: 60px 60px;
+  @media (max-width: 1024px) {
+    padding: 40px 60px;
   }
 
-  @media (min-width: 1200px) {
-    padding: 80px 100px;
+  @media (max-width: 768px) {
+    padding: 30px 30px;
+  }
+
+  @media (max-width: 480px) {
+    padding: 20px 16px;
   }
 `;
 
 export const Title = styled.h2`
   font-size: 40px;
   font-weight: 700;
-  margin-bottom: 30px; /* reduced gap */
+  margin-bottom: 40px;
   color: #121212;
 
   @media (max-width: 768px) {
@@ -37,7 +41,7 @@ export const Underline = styled.span`
     content: "";
     position: absolute;
     left: 0;
-    bottom: -4px;
+    bottom: 0px;
     width: 100%;
     height: 5px;
     background: #ffb600;
@@ -46,80 +50,59 @@ export const Underline = styled.span`
 
 export const CardGrid = styled.div`
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 20px;
+  max-width: 1400px;
   margin: 0 auto;
 
-  @media (min-width: 600px) {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  @media (min-width: 992px) {
-    grid-template-columns: repeat(4, 1fr);
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr; /* Single column on small screens */
   }
 `;
 
-export const Card = styled.div<{ bgColor: string }>`
-  background: ${(props) => props.bgColor || "#333"};
+export const Card = styled.div<{ bg: string }>`
+  background-image: url(${(props) => props.bg});
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  aspect-ratio: 16 / 11; 
   border-radius: 16px;
   color: white;
   padding: 24px;
-  min-height: 220px;
+  text-align: left;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  text-align: left;
+  justify-content: space-between;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
 
-  &:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
+  @media (max-width: 480px) {
+    padding: 16px;
+    aspect-ratio: 16 / 11; 
   }
 `;
 
-export const CardIcon = styled.div`
-  margin-bottom: 16px;
-  display: flex;
-  align-items: center;
-
-  img, svg {
-    width: 35px;
-    height: 35px;
-  }
-`;
 
 export const CardTitle = styled.h3<{ color?: string }>`
-  font-size: 1.35rem;  /* ~22px */
-  font-weight: 700;
+  font-size: 32px;
+  font-weight: 600;
   margin-bottom: 8px;
+  max-width: 40%;
   color: ${(props) => props.color || "#ffffff"};
-  width: 100%;
 
-  @media (min-width: 768px) {
-    font-size: 1.5rem;  /* ~24px */
-  }
-
-  @media (min-width: 1200px) {
-    font-size: 1.65rem;  /* ~26px */
+  @media (max-width: 480px) {
+    font-size: 1rem;
   }
 `;
 
 export const CardText = styled.p<{ color?: string }>`
-  font-size: 1rem;  /* 16px */
+  font-size: 22px;
   font-weight: 400;
-  line-height: 1.5;
+  max-width: 40%;
+  line-height: 1.4;
   color: ${(props) => props.color || "#f3f3f3"};
-  width: 100%;
-  margin: 0;
 
-  @media (min-width: 768px) {
-    font-size: 1.05rem; /* 17px */
-  }
-
-  @media (min-width: 1200px) {
-    font-size: 1.1rem; /* 18px */
+  @media (max-width: 480px) {
+    font-size: 13px;
   }
 `;
 
@@ -127,18 +110,38 @@ export const LearnMoreButton = styled.a`
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  margin-top: 16px;
+  margin-top: 20px;
   padding: 10px 16px;
   background: #fff;
   color: #000;
-  font-size: 0.95rem;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 400;
   border-radius: 8px;
   text-decoration: none;
+  align-self: flex-start;
   transition: all 0.3s ease;
 
   &:hover {
     background: #f3f3f3;
     transform: translateY(-2px);
   }
+`;
+
+export const CardIcon = styled.div`
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  svg {
+    width: 32px;
+    height: 32px;
+  }
+`;
+
+export const ButtonIcon = styled.span`
+  margin-left: 8px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
 `;

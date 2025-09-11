@@ -55,7 +55,7 @@ export const CardGrid = styled.div`
   }
 
   @media (min-width: 992px) {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 `;
 

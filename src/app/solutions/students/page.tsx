@@ -12,9 +12,13 @@ import {
   Subtext,
   RightImage,
 } from "../../Styles/HeroStyled";
+import Journey from "./Journey/page";
+import Feature from "./feature/page";
+import Note from "./note/page";
 
 export default function HeroSection() {
   return (
+    <>
     <Section>
       <Container>
         {/* Left Side */}
@@ -39,5 +43,9 @@ export default function HeroSection() {
         </RightImage>
       </Container>
     </Section>
+    <Journey />
+    <Feature />
+    <Note />
+    </>
   );
 }
