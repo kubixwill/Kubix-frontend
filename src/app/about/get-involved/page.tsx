@@ -14,6 +14,7 @@ export default function ConnectSection() {
   return (
     <Section>
       <Title>
+      
         Want to Get <Underline>Involved?</Underline>
       </Title>
       <Description>
