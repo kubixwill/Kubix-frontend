@@ -120,6 +120,7 @@ export const ButtonGroup = styled.div`
 
   @media (max-width: 480px) {
     gap: 15px;
+    justify-content: center;
   }
 `;
 
