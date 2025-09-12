@@ -55,7 +55,7 @@ export const CardGrid = styled.div`
   max-width: 1400px;
   margin: 0 auto;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     grid-template-columns: 1fr; /* Single column on small screens */
   }
 `;
@@ -75,12 +75,10 @@ export const Card = styled.div<{ bg: string }>`
   justify-content: space-between;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
 
-  @media (max-width: 480px) {
-    padding: 16px;
-    aspect-ratio: 16 / 11; 
+  @media (max-width: 600px) {
+    aspect-ratio: 16 / 14; 
   }
 `;
-
 
 export const CardTitle = styled.h3<{ color?: string }>`
   font-size: 32px;
