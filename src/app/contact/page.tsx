@@ -12,9 +12,12 @@ import {
   Subtext,
   RightImage,
 } from "../Styles/HeroStyled";
+import Partner from "./partner/page";
+import ContactForm from "../components/Contact-From/contactform";
 
 export default function HeroSection() {
   return (
+    <>
     <Section>
       <Container>
         {/* Left Side */}
@@ -39,5 +42,9 @@ export default function HeroSection() {
         </RightImage>
       </Container>
     </Section>
+
+    <Partner />
+    <ContactForm />
+    </>
   );
 }

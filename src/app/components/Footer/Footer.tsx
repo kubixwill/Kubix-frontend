@@ -28,9 +28,11 @@ const Footer: React.FC = () => {
       <FooterTop>
         {/* Logo + Tagline */}
         <FooterColumn>
-          <Logo>
-            <img src="/Flogo.svg" alt="Kubix Logo" />
-          </Logo>
+           <Logo>
+                  <a href="/">
+                    <img src="/Flogo.svg" alt="Kubix Logo" />
+                  </a>
+                </Logo>
           <FooterText>
             Unlock Your Future with Kubix – India’s most trusted career & college
             discovery platform.

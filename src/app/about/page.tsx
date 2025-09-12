@@ -12,9 +12,14 @@ import {
   Subtext,
   RightImage,
 } from "../Styles/HeroStyled";
+import MissionVision from "./visioin-mission/page";
+import Teams from "./Teams/page";
+import Mediakit from "./mediakit/page";
+import GetInvolved from "./get-involved/page";
 
 export default function HeroSection() {
   return (
+    <>
     <Section>
       <Container>
         {/* Left Side */}
@@ -39,5 +44,12 @@ export default function HeroSection() {
         </RightImage>
       </Container>
     </Section>
+
+    <MissionVision />
+    <Teams />
+    <Mediakit />
+    <GetInvolved />
+
+    </>
   );
 }

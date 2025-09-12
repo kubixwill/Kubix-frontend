@@ -11,9 +11,9 @@ export const NavbarContainer = styled.nav`
   align-items: center;
   justify-content: space-between;
   padding: 12px 14px;
-  background: #ffffffcc; /* translucent */
+  background: #FFFCF5cc; /* translucent */
   backdrop-filter: blur(10px);
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 1px solid #A0A0A0;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 
   @media (min-width: 375px) {

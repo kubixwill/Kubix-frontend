@@ -21,6 +21,16 @@ import { FiChevronDown, FiMenu, FiX } from "react-icons/fi";
 const Navbar: React.FC = () => {
   const [isMobileOpen, setIsMobileOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
+  const [text, setText] = useState("Get the App");
+
+  // Button Text Chnage Handler
+  const handleClick = () => {
+  setText("Coming Soon");
+
+  setTimeout(() => {
+    setText("Get the App");
+  }, 1000);
+  };
 
   const toggleMobileMenu = () => {
     setIsMobileOpen(!isMobileOpen);
@@ -87,7 +97,9 @@ const Navbar: React.FC = () => {
       </NavLinks>
 
       {/* CTA Button */}
-      <GetAppButton>Get the App</GetAppButton>
+     <GetAppButton onClick={handleClick}>
+          {text}
+        </GetAppButton>
 
       {/* Hamburger Menu */}
       <Hamburger onClick={toggleMobileMenu}>
@@ -131,8 +143,11 @@ const Navbar: React.FC = () => {
         <MobileNavItem><a href="/blog">Blog</a></MobileNavItem>
         <MobileNavItem><a href="/contact">Contact</a></MobileNavItem>
 
-        <GetAppButton style={{ width: "100%", marginTop: "15px" }}>
-          Get the App
+        <GetAppButton
+          style={{ width: "100%", marginTop: "15px" }}
+          onClick={handleClick}
+        >
+          {text}
         </GetAppButton>
       </MobileMenu>
     </NavbarContainer>
