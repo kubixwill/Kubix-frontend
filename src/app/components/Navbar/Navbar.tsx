@@ -135,7 +135,7 @@ const Navbar: React.FC = () => {
           <MobileDropdown>
             <MobileDropdownItem><a href="/explore/career-studio">Career Studio</a></MobileDropdownItem>
             <MobileDropdownItem><a href="/explore/careers">Explore Careers</a></MobileDropdownItem>
-            <MobileDropdownItem><a href="/explore/universities">University Listings</a></MobileDropdownItem>
+            <MobileDropdownItem><a href="/explore/universities-list">University Listings</a></MobileDropdownItem>
           </MobileDropdown>
         )}
 
