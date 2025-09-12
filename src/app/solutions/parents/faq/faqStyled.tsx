@@ -10,11 +10,11 @@ export const Section = styled.section`
   }
 
   @media (max-width: 768px) {
-    padding: 40px 20px;
+    padding: 40px 30px;
   }
 
   @media (max-width: 480px) {
-    padding: 30px 10px;
+    padding: 30px 20px;
   }
 `;
 

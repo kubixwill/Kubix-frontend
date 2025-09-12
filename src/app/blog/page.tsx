@@ -12,9 +12,13 @@ import {
   Subtext,
   RightImage,
 } from "../Styles/HeroStyled";
+import Types from "./type/page";
+import Work from "./work/page";
+import Topic from "./topic/page";
 
 export default function HeroSection() {
   return (
+    <>
     <Section>
       <Container>
         {/* Left Side */}
@@ -39,5 +43,10 @@ export default function HeroSection() {
         </RightImage>
       </Container>
     </Section>
+
+    <Types />
+    <Work />
+    <Topic />
+    </>
   );
 }

@@ -12,9 +12,13 @@ import {
   Subtext,
   RightImage,
 } from "../../Styles/HeroStyled";
+import StudioFeatures from "./studio-features/page";
+import Stduio from "./studio/page"
+
 
 export default function HeroSection() {
   return (
+    <>
     <Section>
       <Container>
         {/* Left Side */}
@@ -39,5 +43,9 @@ export default function HeroSection() {
         </RightImage>
       </Container>
     </Section>
+
+    <StudioFeatures />
+    <Stduio />
+    </>
   );
 }
